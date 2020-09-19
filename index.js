@@ -1,1 +1,1 @@
-module.exports = require('path').join(__dirname, 'lib', 'dotnet.exe');
+module.exports = `"${require('path').join(__dirname, 'lib', 'dotnet.exe')}"`;
